@@ -63,6 +63,10 @@ It is licensed under the Apache License 2.0.
 This repo is a fork of https://github.com/Doccrazy/keycloak-protocol-cas
 and includes changes for Keycloak 8 and newer that were not merged by the owner for half a year.
 
+## Protocol flows
+
+See [docs/cas-flows.md](docs/cas-flows.md) for a walkthrough of the implemented authentication flows (login, validation, proxy, SAML 1.1, logout/SLO) with the expected request parameters.
+
 ## References
 
 [1] https://www.keycloak.org/
